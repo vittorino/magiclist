@@ -1,0 +1,11 @@
+body{
+  background-color: #e7eaf2;
+}
+.navbar {
+  background-color: black;
+}
+
+.navbar-brand {
+  margin: 0px;
+  padding: 0px;
+}
