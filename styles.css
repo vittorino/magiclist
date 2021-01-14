@@ -1,6 +1,7 @@
-body{
+body {
   background-color: #e7eaf2;
 }
+
 .navbar {
   background-color: black;
 }
@@ -8,4 +9,28 @@ body{
 .navbar-brand {
   margin: 0px;
   padding: 0px;
+}
+
+.card {
+  margin: 0.5em;
+}
+
+.card:hover {
+  opacity: 90%;
+}
+
+.owned {
+  opacity: 40%;
+}
+
+.owned:hover {
+  opacity: 60%;
+}
+
+.hidden {
+  visibility: hidden;
+  width: 0px;
+  margin: 0px;
+  box-shadow: none;
+  border: none;
 }

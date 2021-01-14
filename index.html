@@ -8,15 +8,41 @@
   <title>Magic List</title>
 </head>
 <body>
-  <!-- Image and text -->
+  <!-- navbar -->
   <nav class="navbar sticky-top navbar-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
         <img src="https://media.magic.wizards.com/MX_Nav_EN.png" alt="" width="124" height="50" class="d-inline-block align-top">
-        
       </a>
+
+      <!-- filters -->
+      <div class="btn-toolbar">
+        <div class="btn-group btn-group-sm me-4" role="group" aria-label="color">
+          <input type="checkbox" class="btn-check" id="black" checked>
+          <label class="btn btn-outline-secondary black">Black</label>
+        
+          <input type="checkbox" class="btn-check" id="blue" checked>
+          <label class="btn btn-outline-secondary blue">Blue</label>
+        
+          <input type="checkbox" class="btn-check" id="green" checked>
+          <label class="btn btn-outline-secondary green">Green</label>
+
+          <input type="checkbox" class="btn-check" id="red" checked>
+          <label class="btn btn-outline-secondary red">Red</label>
+
+          <input type="checkbox" class="btn-check" id="white" checked>
+          <label class="btn btn-outline-secondary white">White</label>
+
+          <input type="checkbox" class="btn-check" id="terrain" checked>
+          <label class="btn btn-outline-secondary terrain">Terrain</label>
+
+          <input type="checkbox" class="btn-check" id="artifact" checked>
+          <label class="btn btn-outline-secondary artifact">Artifact</label>
+        </div>
     </div>
   </nav>
+
+  <!-- gallery -->
   <div class="gallery d-flex flex-wrap justify-content-center pt-5">
       
     </ul>
