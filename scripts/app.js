@@ -6,6 +6,10 @@ const getCardList = async () => {
   return (data.cards);
 };
 
+if(localStorage.getItem('collection') == null){
+  localStorage.setItem('collection', '');
+}
+
 // get local collection
 const collection = localStorage.getItem('collection').split(',');
 
